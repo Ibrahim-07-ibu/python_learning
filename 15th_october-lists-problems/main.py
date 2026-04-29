@@ -1,4 +1,4 @@
- Given a list of integers, check if a number is present in the list or not. Print “found” else, print “not found”
+#  Given a list of integers, check if a number is present in the list or not. Print “found” else, print “not found”
 
 def check_number_in_list():
     numbers = [10, 20, 30, 40, 50]
@@ -8,7 +8,7 @@ def check_number_in_list():
     else:
         print("not found")
 
-Check if the sum of all numbers in a list is even or not
+# Check if the sum of all numbers in a list is even or not
 
 def check_even_or_odd():
     num = int(input("Enter a number: "))
@@ -17,7 +17,7 @@ def check_even_or_odd():
     else:
         print("Odd")
 
-Given two numbers a and b and a list of numbers num_list. Print all the elements in num_list between a and b.
+# Given two numbers a and b and a list of numbers num_list. Print all the elements in num_list between a and b.
 
 def print_numbers_in_range():
     num_list = [8, 1, 0, 19, 11, 28, 3, 5]

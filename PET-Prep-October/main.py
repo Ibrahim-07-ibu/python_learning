@@ -21,9 +21,9 @@ print(digit_sum)
 a = int(input("Enter the value of a: "))
 b = int(input("Enter the value of b: "))
 
- even_sum = 0
+even_sum = 0
 
- for i in range(a, b + 1):
+for i in range(a, b + 1):
     if i % 2 == 0:         
         even_sum = even_sum + i
 
@@ -41,10 +41,3 @@ elif x > 20 :
 
 tax = cost * 0.05
 print(cost + tax)
-
-
-
-
-
-
-
